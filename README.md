@@ -1,4 +1,5 @@
 # Resistance-Alarm
+
 An alarm for when the FurSquared twitter account tweets and the CyberSkunk resistance needs to check some shit for possible con game clues
 
 ## Setup
@@ -11,6 +12,7 @@ An alarm for when the FurSquared twitter account tweets and the CyberSkunk resis
 * [find a twitter's user id](https://tweeterid.com/)
 * [Twython Docs](https://twython.readthedocs.io/en/latest/index.html)
 * [GET user timeline twitter doc](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline)
+* [Why is the gitignore in the secrets folder? (there might be a better way for this but I'm lazy)](https://jasonstitt.com/gitignore-whitelisting-patterns)
 
 ## Shit to do
 
