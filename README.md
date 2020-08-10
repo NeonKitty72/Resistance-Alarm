@@ -4,7 +4,7 @@ An alarm for when the FurSquared twitter account tweets and the CyberSkunk resis
 ## Setup
 1. [Install Twython](https://twython.readthedocs.io/en/latest/usage/install.html)
 2. [Create a Twitter App](https://apps.twitter.com/) and get the consumer key and consumer secret
-3. Copy the AppKeys.json file into the secrets folder. Edit it, replacing <APP_KEY_HERE> with your twitter app key and <APP_SECRET_HERE> with your twitter app secret. (Don't commit these, they're your secrets, not mine!)
+3. Copy the AppKeys.json file into the secrets folder. Edit it, replacing <APP_KEY_HERE> with your twitter app/API key and <APP_SECRET_HERE> with your twitter app/API secret. (Don't commit these, they're your secrets, not mine!)
 
 ## Shit to do
 

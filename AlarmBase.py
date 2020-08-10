@@ -27,4 +27,13 @@ if keysJson[APP_SECRET_NAME] == "<APP_SECRET_HERE>":
 if error:
     sys.exit()
 
-print("success")
+#get twitter oauth key
+appKey = keysJson[APP_KEY_NAME]
+appSecret = keysJson[APP_SECRET_NAME]
+twitter = Twython(appKey, appSecret, oauth_version=2)
+accessToken = twitter.obtain_access_token()
+
+twitter = Twython(appKey, access_token=accessToken)
+
+#search for fursquared tweets
+print(twitter.get_user_timeline(user_id="2960430183"))
